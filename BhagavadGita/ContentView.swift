@@ -38,6 +38,9 @@ struct ContentView: View {
             BGLogger.instance.info("a nice information----->\(String(describing: arr[safeIndex: 4]))") // prio 3, INFO in blue
             BGLogger.instance.warning("oh no, that won’t be good") // prio 4, WARNING in yellow
             BGLogger.instance.error("ouch, an error did occur!") // prio 5, ERROR in red
+
+            BGLogger.instance.verbose(API.baseURL)
+            BGLogger.instance.verbose("\(ConfigurationManager.environment)")
         }
     }
 
