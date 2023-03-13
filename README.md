@@ -31,7 +31,7 @@ Part 7 - SwiftFormat Package using Home-brew
     
     https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md - Rules
     
-Part 8 - Setup Dev, QA, Prod - Environments, Different BASE_URLS, Schemas, BundleIDs, App Names, Active Compilation etc...
+Part 8 - Setup Dev, QA, Prod - Environments, Different BASE_URLS, Schemas, BundleIDs, App Names, Configurations Settings, Active Compilation etc...
 
 
 
