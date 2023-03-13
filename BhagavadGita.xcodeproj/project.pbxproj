@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD60A63C29BF1CC900B0750F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD60A63E29BF1CC900B0750F /* Localizable.strings */; };
+		FD60A64229BF244B00B0750F /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60A64129BF244B00B0750F /* Strings+Generated.swift */; };
 		FDD4267029BB5C1C008DE682 /* BhagavadGitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */; };
 		FDD4267229BB5C1C008DE682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4267129BB5C1C008DE682 /* ContentView.swift */; };
 		FDD4267429BB5C20008DE682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD4267329BB5C20008DE682 /* Assets.xcassets */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD60A63D29BF1CC900B0750F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD60A63F29BF1F8800B0750F /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FD60A64129BF244B00B0750F /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = SOURCE_ROOT; };
 		FDD4266C29BB5C1C008DE682 /* BhagavadGita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BhagavadGita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGitaApp.swift; sourceTree = "<group>"; };
 		FDD4267129BB5C1C008DE682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,11 +82,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD60A63429BC8D3900B0750F /* ViewModel */ = {
+		FD60A64029BF23F600B0750F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FD60A64129BF244B00B0750F /* Strings+Generated.swift */,
 			);
-			path = ViewModel;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		FDD4266329BB5C1C008DE682 = {
@@ -107,10 +113,11 @@
 		FDD4266E29BB5C1C008DE682 /* BhagavadGita */ = {
 			isa = PBXGroup;
 			children = (
+				FD60A64029BF23F600B0750F /* Helpers */,
 				FDD4269F29BB8A83008DE682 /* BGLogger.swift */,
-				FD60A63429BC8D3900B0750F /* ViewModel */,
 				FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */,
 				FDD4267129BB5C1C008DE682 /* ContentView.swift */,
+				FD60A63E29BF1CC900B0750F /* Localizable.strings */,
 				FDD4267329BB5C20008DE682 /* Assets.xcassets */,
 				FDD4267529BB5C20008DE682 /* Preview Content */,
 			);
@@ -149,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDD4269029BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGita" */;
 			buildPhases = (
+				FD60A64329BF25AD00B0750F /* SwiftGen */,
 				FD60A63929BCC31E00B0750F /* SwiftLint */,
 				FDD4266829BB5C1C008DE682 /* Sources */,
 				FDD4266929BB5C1C008DE682 /* Frameworks */,
@@ -233,6 +241,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
 			);
 			mainGroup = FDD4266329BB5C1C008DE682;
 			packageReferences = (
@@ -256,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD4267729BB5C20008DE682 /* Preview Assets.xcassets in Resources */,
+				FD60A63C29BF1CC900B0750F /* Localizable.strings in Resources */,
 				FDD4267429BB5C20008DE682 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +305,24 @@
 			shellPath = /bin/sh;
 			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		FD60A64329BF25AD00B0750F /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen\nelse\n  echo \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -304,6 +332,7 @@
 			files = (
 				FDD4267229BB5C1C008DE682 /* ContentView.swift in Sources */,
 				FDD4267029BB5C1C008DE682 /* BhagavadGitaApp.swift in Sources */,
+				FD60A64229BF244B00B0750F /* Strings+Generated.swift in Sources */,
 				FDD426A029BB8A83008DE682 /* BGLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,11 +369,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		FD60A63E29BF1CC900B0750F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD60A63D29BF1CC900B0750F /* en */,
+				FD60A63F29BF1F8800B0750F /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		FDD4268E29BB5C21008DE682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -405,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

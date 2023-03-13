@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  BhagavadGita
+
+  Created by MANAS VIJAYWARGIYA on 13/03/23.
+  
+*/
+
+// ContentView
+"ContentView_bhagavad_gita_chapter%@" = "Shrimad Bhagavad Gita Chapter: %@";
+"ContentView_bhagavad_gita_title" = "Shrimad Bhagavad Gita";

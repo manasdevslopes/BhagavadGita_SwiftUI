@@ -13,12 +13,17 @@ struct ContentView: View {
     let number = Int("12")!
   }
 
+  @State private var count = "1"
+
   var body: some View {
     VStack {
       Image(systemName: "globe")
         .imageScale(.large)
         .foregroundColor(.accentColor)
-      Text("Hello, world!")
+      Text(L10n.contentViewBhagavadGitaChapter(count))
+      Text(L10n.contentViewBhagavadGitaTitle)
+      
+      Text("ContentView_bhagavad_gita_chapter\(count)")
         .onTapGesture {
           newLog()
         }
