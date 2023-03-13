@@ -16,6 +16,8 @@
 		FDA25A5029BF49320072C390 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FDA25A4F29BF49320072C390 /* FirebaseAnalytics */; };
 		FDA25A5229BF49320072C390 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = FDA25A5129BF49320072C390 /* FirebaseCrashlytics */; };
 		FDA25A5B29BF4B580072C390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA25A5A29BF4B580072C390 /* AppDelegate.swift */; };
+		FDA25A5F29BF5E2A0072C390 /* FirebaseAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA25A5E29BF5E2A0072C390 /* FirebaseAnalyticsManager.swift */; };
+		FDA25A6129BF60DF0072C390 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA25A6029BF60DF0072C390 /* AnalyticsManager.swift */; };
 		FDD4267029BB5C1C008DE682 /* BhagavadGitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */; };
 		FDD4267229BB5C1C008DE682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4267129BB5C1C008DE682 /* ContentView.swift */; };
 		FDD4267429BB5C20008DE682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD4267329BB5C20008DE682 /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 		FDA25A5729BF4AC20072C390 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDA25A5929BF4AC20072C390 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDA25A5A29BF4B580072C390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDA25A5E29BF5E2A0072C390 /* FirebaseAnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsManager.swift; sourceTree = "<group>"; };
+		FDA25A6029BF60DF0072C390 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		FDD4266C29BB5C1C008DE682 /* BhagavadGita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BhagavadGita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGitaApp.swift; sourceTree = "<group>"; };
 		FDD4267129BB5C1C008DE682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				FDA25A5829BF4AC20072C390 /* Dev */,
 				FDA25A5629BF4AC20072C390 /* Qa */,
 				FDA25A5429BF4AC20072C390 /* Prod */,
+				FDA25A5E29BF5E2A0072C390 /* FirebaseAnalyticsManager.swift */,
+				FDA25A6029BF60DF0072C390 /* AnalyticsManager.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -442,8 +448,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA25A5B29BF4B580072C390 /* AppDelegate.swift in Sources */,
+				FDA25A5F29BF5E2A0072C390 /* FirebaseAnalyticsManager.swift in Sources */,
 				FD60A65E29BF3F4A00B0750F /* ConfigurationManager.swift in Sources */,
 				FDD4267229BB5C1C008DE682 /* ContentView.swift in Sources */,
+				FDA25A6129BF60DF0072C390 /* AnalyticsManager.swift in Sources */,
 				FDD4267029BB5C1C008DE682 /* BhagavadGitaApp.swift in Sources */,
 				FD60A64229BF244B00B0750F /* Strings+Generated.swift in Sources */,
 				FDD426A029BB8A83008DE682 /* BGLogger.swift in Sources */,

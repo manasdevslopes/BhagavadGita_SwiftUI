@@ -41,6 +41,10 @@ struct ContentView: View {
 
             BGLogger.instance.verbose(API.baseURL)
             BGLogger.instance.verbose("\(ConfigurationManager.environment)")
+
+//            FirebaseAnalyticsManager.shared.logEvent(event: AnalyticsEvent.clickButtonEvent)
+            FirebaseAnalyticsManager.shared.logEvent1(name: "onBoarding_test_2", params: [:])
+            //            AnalyticsManager(logger: FirebaseAnalyticsManager())
         }
     }
 
