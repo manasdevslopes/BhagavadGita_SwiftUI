@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDD4267029BB5C1C008DE682 /* BhagavadGitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */; };
+		FDD4267229BB5C1C008DE682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4267129BB5C1C008DE682 /* ContentView.swift */; };
+		FDD4267429BB5C20008DE682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD4267329BB5C20008DE682 /* Assets.xcassets */; };
+		FDD4267729BB5C20008DE682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD4267629BB5C20008DE682 /* Preview Assets.xcassets */; };
+		FDD4268129BB5C20008DE682 /* BhagavadGitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4268029BB5C20008DE682 /* BhagavadGitaTests.swift */; };
+		FDD4268B29BB5C21008DE682 /* BhagavadGitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4268A29BB5C21008DE682 /* BhagavadGitaUITests.swift */; };
+		FDD4268D29BB5C21008DE682 /* BhagavadGitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4268C29BB5C21008DE682 /* BhagavadGitaUITestsLaunchTests.swift */; };
+		FDD4269B29BB7E2E008DE682 /* BGUtility in Frameworks */ = {isa = PBXBuildFile; productRef = FDD4269A29BB7E2E008DE682 /* BGUtility */; };
+		FDD4269E29BB847D008DE682 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = FDD4269D29BB847D008DE682 /* SwiftyBeaver */; };
+		FDD426A029BB8A83008DE682 /* BGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD4269F29BB8A83008DE682 /* BGLogger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD4267D29BB5C20008DE682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD4266429BB5C1C008DE682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD4266B29BB5C1C008DE682;
+			remoteInfo = BhagavadGita;
+		};
+		FDD4268729BB5C21008DE682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD4266429BB5C1C008DE682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD4266B29BB5C1C008DE682;
+			remoteInfo = BhagavadGita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDD4266C29BB5C1C008DE682 /* BhagavadGita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BhagavadGita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGitaApp.swift; sourceTree = "<group>"; };
+		FDD4267129BB5C1C008DE682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDD4267329BB5C20008DE682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD4267629BB5C20008DE682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD4267C29BB5C20008DE682 /* BhagavadGitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhagavadGitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD4268029BB5C20008DE682 /* BhagavadGitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGitaTests.swift; sourceTree = "<group>"; };
+		FDD4268629BB5C21008DE682 /* BhagavadGitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhagavadGitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD4268A29BB5C21008DE682 /* BhagavadGitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGitaUITests.swift; sourceTree = "<group>"; };
+		FDD4268C29BB5C21008DE682 /* BhagavadGitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhagavadGitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDD4269F29BB8A83008DE682 /* BGLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGLogger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD4266929BB5C1C008DE682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD4269B29BB7E2E008DE682 /* BGUtility in Frameworks */,
+				FDD4269E29BB847D008DE682 /* SwiftyBeaver in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD4267929BB5C20008DE682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD4268329BB5C21008DE682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD60A63429BC8D3900B0750F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDD4266329BB5C1C008DE682 = {
+			isa = PBXGroup;
+			children = (
+				FDD4266E29BB5C1C008DE682 /* BhagavadGita */,
+				FDD4267F29BB5C20008DE682 /* BhagavadGitaTests */,
+				FDD4268929BB5C21008DE682 /* BhagavadGitaUITests */,
+				FDD4266D29BB5C1C008DE682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD4266D29BB5C1C008DE682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4266C29BB5C1C008DE682 /* BhagavadGita.app */,
+				FDD4267C29BB5C20008DE682 /* BhagavadGitaTests.xctest */,
+				FDD4268629BB5C21008DE682 /* BhagavadGitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD4266E29BB5C1C008DE682 /* BhagavadGita */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4269F29BB8A83008DE682 /* BGLogger.swift */,
+				FD60A63429BC8D3900B0750F /* ViewModel */,
+				FDD4266F29BB5C1C008DE682 /* BhagavadGitaApp.swift */,
+				FDD4267129BB5C1C008DE682 /* ContentView.swift */,
+				FDD4267329BB5C20008DE682 /* Assets.xcassets */,
+				FDD4267529BB5C20008DE682 /* Preview Content */,
+			);
+			path = BhagavadGita;
+			sourceTree = "<group>";
+		};
+		FDD4267529BB5C20008DE682 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4267629BB5C20008DE682 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD4267F29BB5C20008DE682 /* BhagavadGitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4268029BB5C20008DE682 /* BhagavadGitaTests.swift */,
+			);
+			path = BhagavadGitaTests;
+			sourceTree = "<group>";
+		};
+		FDD4268929BB5C21008DE682 /* BhagavadGitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4268A29BB5C21008DE682 /* BhagavadGitaUITests.swift */,
+				FDD4268C29BB5C21008DE682 /* BhagavadGitaUITestsLaunchTests.swift */,
+			);
+			path = BhagavadGitaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD4266B29BB5C1C008DE682 /* BhagavadGita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD4269029BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGita" */;
+			buildPhases = (
+				FD60A63929BCC31E00B0750F /* SwiftLint */,
+				FDD4266829BB5C1C008DE682 /* Sources */,
+				FDD4266929BB5C1C008DE682 /* Frameworks */,
+				FDD4266A29BB5C1C008DE682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BhagavadGita;
+			packageProductDependencies = (
+				FDD4269A29BB7E2E008DE682 /* BGUtility */,
+				FDD4269D29BB847D008DE682 /* SwiftyBeaver */,
+			);
+			productName = BhagavadGita;
+			productReference = FDD4266C29BB5C1C008DE682 /* BhagavadGita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD4267B29BB5C20008DE682 /* BhagavadGitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD4269329BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGitaTests" */;
+			buildPhases = (
+				FDD4267829BB5C20008DE682 /* Sources */,
+				FDD4267929BB5C20008DE682 /* Frameworks */,
+				FDD4267A29BB5C20008DE682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD4267E29BB5C20008DE682 /* PBXTargetDependency */,
+			);
+			name = BhagavadGitaTests;
+			productName = BhagavadGitaTests;
+			productReference = FDD4267C29BB5C20008DE682 /* BhagavadGitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDD4268529BB5C21008DE682 /* BhagavadGitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD4269629BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGitaUITests" */;
+			buildPhases = (
+				FDD4268229BB5C21008DE682 /* Sources */,
+				FDD4268329BB5C21008DE682 /* Frameworks */,
+				FDD4268429BB5C21008DE682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD4268829BB5C21008DE682 /* PBXTargetDependency */,
+			);
+			name = BhagavadGitaUITests;
+			productName = BhagavadGitaUITests;
+			productReference = FDD4268629BB5C21008DE682 /* BhagavadGitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD4266429BB5C1C008DE682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FDD4266B29BB5C1C008DE682 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FDD4267B29BB5C20008DE682 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDD4266B29BB5C1C008DE682;
+					};
+					FDD4268529BB5C21008DE682 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDD4266B29BB5C1C008DE682;
+					};
+				};
+			};
+			buildConfigurationList = FDD4266729BB5C1C008DE682 /* Build configuration list for PBXProject "BhagavadGita" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD4266329BB5C1C008DE682;
+			packageReferences = (
+				FDD4269929BB7E2E008DE682 /* XCRemoteSwiftPackageReference "BGUtilityPackage" */,
+				FDD4269C29BB847D008DE682 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+			);
+			productRefGroup = FDD4266D29BB5C1C008DE682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD4266B29BB5C1C008DE682 /* BhagavadGita */,
+				FDD4267B29BB5C20008DE682 /* BhagavadGitaTests */,
+				FDD4268529BB5C21008DE682 /* BhagavadGitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD4266A29BB5C1C008DE682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD4267729BB5C20008DE682 /* Preview Assets.xcassets in Resources */,
+				FDD4267429BB5C20008DE682 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD4267A29BB5C20008DE682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD4268429BB5C21008DE682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FD60A63929BCC31E00B0750F /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD4266829BB5C1C008DE682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD4267229BB5C1C008DE682 /* ContentView.swift in Sources */,
+				FDD4267029BB5C1C008DE682 /* BhagavadGitaApp.swift in Sources */,
+				FDD426A029BB8A83008DE682 /* BGLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD4267829BB5C20008DE682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD4268129BB5C20008DE682 /* BhagavadGitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD4268229BB5C21008DE682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD4268B29BB5C21008DE682 /* BhagavadGitaUITests.swift in Sources */,
+				FDD4268D29BB5C21008DE682 /* BhagavadGitaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD4267E29BB5C20008DE682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD4266B29BB5C1C008DE682 /* BhagavadGita */;
+			targetProxy = FDD4267D29BB5C20008DE682 /* PBXContainerItemProxy */;
+		};
+		FDD4268829BB5C21008DE682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD4266B29BB5C1C008DE682 /* BhagavadGita */;
+			targetProxy = FDD4268729BB5C21008DE682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDD4268E29BB5C21008DE682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDD4268F29BB5C21008DE682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD4269129BB5C21008DE682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagavadGita/Preview Content\"";
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.BhagavadGita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD4269229BB5C21008DE682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BhagavadGita/Preview Content\"";
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.BhagavadGita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDD4269429BB5C21008DE682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.BhagavadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagavadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagavadGita";
+			};
+			name = Debug;
+		};
+		FDD4269529BB5C21008DE682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.BhagavadGitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BhagavadGita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BhagavadGita";
+			};
+			name = Release;
+		};
+		FDD4269729BB5C21008DE682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.BhagavadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagavadGita;
+			};
+			name = Debug;
+		};
+		FDD4269829BB5C21008DE682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP6V4T4UU6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blacenova.BhagavadGitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BhagavadGita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD4266729BB5C1C008DE682 /* Build configuration list for PBXProject "BhagavadGita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD4268E29BB5C21008DE682 /* Debug */,
+				FDD4268F29BB5C21008DE682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD4269029BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD4269129BB5C21008DE682 /* Debug */,
+				FDD4269229BB5C21008DE682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD4269329BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD4269429BB5C21008DE682 /* Debug */,
+				FDD4269529BB5C21008DE682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD4269629BB5C21008DE682 /* Build configuration list for PBXNativeTarget "BhagavadGitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD4269729BB5C21008DE682 /* Debug */,
+				FDD4269829BB5C21008DE682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDD4269929BB7E2E008DE682 /* XCRemoteSwiftPackageReference "BGUtilityPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/manasdevslopes/BGUtilityPackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+		FDD4269C29BB847D008DE682 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDD4269A29BB7E2E008DE682 /* BGUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDD4269929BB7E2E008DE682 /* XCRemoteSwiftPackageReference "BGUtilityPackage" */;
+			productName = BGUtility;
+		};
+		FDD4269D29BB847D008DE682 /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDD4269C29BB847D008DE682 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FDD4266429BB5C1C008DE682 /* Project object */;
+}
