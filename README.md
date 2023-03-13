@@ -17,6 +17,12 @@ Part 3 - Create Custom Logs on Xcode console with SPM
     
 Part 4 - Dependency Injection
 
-Part 5 & Part 6 - Localisation
+Part 5 & Part 6 - Localisation with SwiftGen
+
+    https://github.com/SwiftGen/SwiftGen
+    
+    https://github.com/SwiftGen/SwiftGen/blob/stable/Documentation/Articles/Xcode-Integration.md
+    
+
 
     
