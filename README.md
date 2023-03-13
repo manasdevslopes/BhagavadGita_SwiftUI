@@ -34,5 +34,5 @@ Part 7 - SwiftFormat Package using Home-brew
 Part 8 - Setup Dev, QA, Prod - Environments, Different BASE_URLS, Schemas, BundleIDs, App Names, Configurations Settings, Active Compilation etc...
 
 
-
+Part 9 - Create Different apps for Dev, QA, Prod for a single App with different BundleIds on Firebase and also added Firebase Script in Xcode Build Phases to catch correct Googleservice_info.plist automatically
     
