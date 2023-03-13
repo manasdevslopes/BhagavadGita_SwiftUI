@@ -7,7 +7,7 @@ Part 1 - Create a SPM Package with unit test cases of Package.
 
     https://github.com/manasdevslopes/BGUtilityPackage
     
-Part 2 - Clean Code with SwiftLint
+Part 2 - Clean Code with SwiftLint - first create .swiftlint.yaml file inside folder for writing rules
 
     https://github.com/realm/SwiftLint
     
