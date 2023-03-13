@@ -23,6 +23,14 @@ Part 5 & Part 6 - Localisation with SwiftGen
     
     https://github.com/SwiftGen/SwiftGen/blob/stable/Documentation/Articles/Xcode-Integration.md
     
+Part 7 - SwiftFormat Package using Home-brew
+    
+    https://github.com/nicklockwood/SwiftFormat
+    
+    https://github.com/nicklockwood/SwiftFormat/blob/master/.swiftformat - .swiftformat file
+    
+    https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md - Rules
+    
 
 
     
