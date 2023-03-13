@@ -36,3 +36,5 @@ Part 8 - Setup Dev, QA, Prod - Environments, Different BASE_URLS, Schemas, Bundl
 
 Part 9 - Create Different apps for Dev, QA, Prod for a single App with different BundleIds on Firebase and also added Firebase Script in Xcode Build Phases to catch correct Googleservice_info.plist automatically
     
+
+part 10 - Very Basics of Firebase Analytics
